@@ -1,6 +1,6 @@
-from controller.exceptions.exceptoins import PersonNotFoundError
-from model.da.da import DataAccess
-from model.entity.person import Person
+from anbar.controller.exceptions.exceptoins import PersonNotFoundError
+from anbar.model.da.da import DataAccess
+from anbar.model.entity.person import Person
 
 person_da = DataAccess(Person)
 

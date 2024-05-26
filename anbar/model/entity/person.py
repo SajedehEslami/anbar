@@ -8,10 +8,10 @@ class Person(Base):
     family = Column(String(20), nullable=False)
     status = Column(Boolean, default=True)
 
-    # def __init__(self, id, name, family, status=True):
-    #     self.id = id
-    #     self.name = name
-    #     self.family = family
-    #     self.status = status
+    def __init__(self, id, name, family, status=True):
+        self.id = id
+        self.name = name
+        self.family = family
+        self.status = status
 
     # todo : getter / setter (validation)

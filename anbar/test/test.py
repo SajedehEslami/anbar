@@ -1,5 +1,6 @@
 from datetime import datetime
 
+from anbar.controller.person_controller import PersonController
 from anbar.model.bl.storage import StorageBl
 from anbar.model.da.da import DataAccess
 from anbar.model.entity import *
@@ -39,4 +40,6 @@ from anbar.model.entity import *
 #
 # print(storage)
 
-print(StorageBl.find_count_by_product_id(1))
+# print(StorageBl.find_count_by_product_id(1))
+
+print(PersonController.save("test", "test", False))

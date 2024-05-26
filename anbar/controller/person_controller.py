@@ -1,6 +1,6 @@
-from model.bl.person_bl import PersonBl
-from model.entity.person import Person
-from model.tools.decorators import exception_handling
+from anbar.model.bl.person_bl import PersonBl
+from anbar.model.entity.person import Person
+from anbar.model.tools.decorators import exception_handling
 
 
 class PersonController:
