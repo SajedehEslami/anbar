@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy_utils import create_database, database_exists
-from model.entity.base import Base
+from anbar.model.entity.base import Base
 
 
 connection_string = "mysql+pymysql://root:root123@localhost:3306/mft"
